@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+:root {
+    --roxo1: hsl(269, 69%, 65%);
+    --roxo2: hsl(269, 69%, 60%);
+    --roxo3: hsl(269, 69%, 55%);
+
+    --preto4: hsl(0, 0%, 5%);
+    --preto3: hsl(0, 0%, 10%);
+    --preto2: hsl(0, 0%, 15%);
+    --preto1: hsl(0, 0%, 20%);
+
+    --branco3: hsl(0, 0%, 80%);
+    --branco2: hsl(0, 0%, 85%);
+    --branco1: hsl(0, 0%, 90%);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--preto2);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header h1 {
+    color: var(--roxo3);
+    font-size: 7em;
+    font-weight: bolder;
+    margin: 30px 0 30px 30px;
+    text-align: center;
+}
+
+
+p {
+    font-size: 1.5em;
+
+}
+
+a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--branco1);
+    text-decoration: none;
+}
+
+#nomeTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+}
+
+#interesses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interesses {
+    margin: 0 30px 30px 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 50%;
+    height: 100px;
+    font-size: 90%;
+
+    border-radius: 20px;
+    background-color: var(--preto3);
+    box-shadow: 3px 5px 5px black;
+}
+
+.interesses h2 {
+    color: var(--roxo1);
+    font-size: 2.5em;
+    margin: 0 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.rede {
+    background-color: var(--preto3);
+    color: var(--roxo1);
+
+    margin: 0px 10px 5px 0px;
+    padding: 5px 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 60px;
+    height: 30px;
+
+    font-size: 70%
+    ;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px black;
+}
+
+.rede a {
+    font-size: 100%;
+    font-weight: bold;
+    color: var(--roxo1);
+    text-decoration: none;
+}
+
+.rede:hover {
+    background-color: var(--preto2);
+}
+
+.rede:hover a {
+    color: var(--roxo2);
+    text-decoration: underline;
+}
+
+body {
+    background-color: var(--preto4);
+    margin: 30px;
+    color: var(--branco1);
+}
+
+main {
+    background-color: var(--preto3);
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+
+ul {
+    list-style-type: none;
+}
